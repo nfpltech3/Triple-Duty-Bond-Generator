@@ -8,3 +8,29 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Sample PDFs and generated output docs
+*.pdf
+
+# Log/debug text files
+analysis.txt
+analysis_output.txt
+check_output.txt
+debug_output.txt
+pdf_text_51939.txt
+template_table.txt
+test_results.txt
+test_results2.txt
+test_results3.txt
+
+# Generated output bonds (keep only the template)
+Triple_Duty_Bond_BE_*.docx
+Triple_Duty_Bond_2026*.docx
+
+# Utility/debug scripts not required for production
+analyze_pdfs.py
+check_doc.py
+debug_val.py
+test_all.py
+verify_doc.py
+view_template.py
