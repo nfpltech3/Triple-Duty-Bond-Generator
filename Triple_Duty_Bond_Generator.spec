@@ -5,7 +5,7 @@ a = Analysis(
     ['generate_bond.py'],
     pathex=[],
     binaries=[],
-    datas=[('Triple_Duty_Bond_template__IR53112.docx', '.')],
+    datas=[('Triple_Duty_Bond_template__IR53112.docx', '.'), ('logo.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
